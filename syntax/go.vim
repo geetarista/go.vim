@@ -90,7 +90,7 @@ syn keyword     goBuiltins          make new panic print println real recover
 syn keyword     goConstants         iota true false nil
 
 hi def link     goBuiltins          Keyword
-hi def link     goConstants         Keyword
+hi def link     goConstants         Constant
 
 " Comments; their contents
 syn keyword     goTodo              contained TODO FIXME XXX BUG
